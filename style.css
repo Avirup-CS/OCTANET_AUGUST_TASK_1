@@ -1,0 +1,117 @@
+body {
+    background: url("/RESTAURANT IMAGES/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: calibri-bold, sans-serif;
+    color: rgb(229, 229, 243);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgb(34, 118, 79);
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 50px;
+}
+
+.navbar ul li a {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+#wp {
+    width: 20px;
+    height: 20px;
+}
+
+
+h1,
+h2 {
+    color: yellowgreen;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(203, 186, 186);
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(231, 100, 100);
+    font-size: 20px;
+}
+
+td {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid red;
+    margin: 20px auto;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+a:visited {
+    color: rgb(68, 213, 68);
+}
+
+
+.copyright {
+    color: rgb(165, 128, 128);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+}
